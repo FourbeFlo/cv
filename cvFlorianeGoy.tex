@@ -1,0 +1,171 @@
+% packages et styles
+\documentclass[11pt,a4paper]{moderncv}       
+\moderncvstyle[]{classic}
+\moderncvcolor{blue}
+\usepackage[utf8]{inputenc}                    
+\usepackage[scale=0.8,a4paper]{geometry}
+\RequirePackage{moderncviconsawesome}
+\usepackage{babel}
+\usepackage{color}
+\definecolor{lightgray}{gray}{0.60}
+\usepackage{fourier-orns}
+\usepackage{lettrine}
+\usepackage{pifont}
+\usepackage{xpatch}%%%%%correction du placement photo
+\patchcmd{\makecvhead}
+{width=\@photowidth}
+{width=\@photowidth,angle=90}
+{}{}
+\nopagenumbers
+%%%%%%%%%%%%%% modification du style - espacement,section%%%%%%%%%%%%%%%%%%%%%%%
+\setlength{\hintscolumnwidth}{0.155\textwidth}
+%%% maketitle
+
+%----------------------------------------------------------------------------------illimani
+%            personal data
+%----------------------------------------------------------------------------------
+\makeatother
+\photo[80pt][0pt]{photocv.jpg}
+%<picture%:columnShift:-1,persistent%>                       % optional, uncomment the line if wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\firstname{\color{gray}{Floriane}}
+\familyname{Goy}%
+\title{{\textcolor{lightgray}{\oldpilcrowfive{urriculum vit\ae}}}}                          
+\address{1 ruelle de la poterne}{1260 Nyon, Suisse}{}
+%\mobile{0041 79 532 44 32}
+%\phone{}
+%\fax{}
+\email{floriane.goy@unige.ch}
+%\social[academia]][https://unige.academia.edu/FlorianeGoy]{}
+\social[github][github.com/FourbeFlo]{Floriane Goy}
+%\extrainfo{nationalité: Suisse, Française}  
+%
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\vspace{-3em} 
+%
+%%
+%
+\section{Formation}
+\cventry{\textcolor{gray}{\textbf{01.2024}}}{\href{https://www.unige.ch/lettres/humanites-numeriques/cours-et-seminaires/certificat-de-specialisation}{Certificat de spécialisation en humanité numérique}}{}{UNIGE}{}{}
+\cventry{06.2023}{Doctorat}{langue et littérature latine médiévale}{UNIGE}{}{}{}
+\cventry{06.2017}{Master}{latin (variante médiévale)}{UNIGE}{}{Travail de mémoire sur \emph{l'Apocalypsis Goliae} récompensé par le prix Arditi des Lettres}
+\cventry{09.2014}{Bachelor}{français médiéval et latin}{UNIGE}{}{}
+\cventry{06.2011}{Collège de Candolle}{Maturité gymnasiale (mention bilingue alllemand)}{}{}{}
+%
+%%
+%
+\section{ Thèse}
+\cvitem{Titre}{Représenter la sagesse: le modèle du savoir et la poésie allégorique 1070-1180}
+\cvitem {Direction}{Jean-Yves Tilliette,Cédric Giraud}{}
+\cvitem{Résumé}{Étude de la représentation de la sagesse et des arts du langages dans la poésie médiolatine en regard des conceptions théologiques et philosophiques des XI\textsuperscript{e} et XII\textsuperscript{e} siècles.
+\newline\textsc{\ding{70} histoire intellectuelle, poésie, épistémologie}}
+%
+%%
+%
+\section{Expériences professionnelles}
+%
+%%
+%
+\subsection{Emplois}
+\cventry{2023-2026}{Post-doctorante FNS}{\href{https://www.theologie.uzh.ch/de/faecher/neues-testament/Professur-f\%C3\%BCr-neutestamentliche-Wissenschaft/16th_century_exegesis_of_paul.html}{\textcolor{blue}{{16\textsuperscript{th} Century Exegesis of Paul}}}}{\href{https://www.unige.ch/ihr/fr/accueil/}{IHR (institut d'histoire de la réformation)}}{Genève, 80\%}{}
+\cventry{09-12.2023}{chargée de cours suppléante}{latin médiéval}{département de langues et littératures françaises et latines médiévales}{UNIGE}{}
+\cventry{2017-2023} {Assistante-doctorante}{}{UNIGE}{}{}
+\cventry{04.2017}{Animation} {Aux origines de l'écriture}{}{Salon du livre de Genève}{}{}
+\cventry{2014-2017}{Remplaçante dans l'enseignement secondaire genevois}{}{DIP}{}{Français, Latin, Langue et Culture latine(LCL)\textit{, sur appel}}{}
+\cventry{02-06.2016}{Remplacement}{}{Cycle de Pinchat, Genève}{}{Prise en charge complète d'une classe Latin 11\textsuperscript{e}(14-15ans), 20\%}{}
+\cventry{2012-2017}{Auxilliaire bibliothécaire}{}{biliothèque de la faculté des lettres, Genève,30\%}{}{}
+%
+%%
+%
+\subsection{Enseignements}
+\cventry{2017-2023}{TP Lecture de textes en relation avec les séminaires}{}{UNIGE}{}{}
+\cventry{2019-2022}{SE Lecture de textes médiévaux français, latins, occitans}{}{UNIGE}{\newline\emph{semestre de printemps}}{}
+\newpage
+%
+%%
+%
+\section{Organisations de colloques et conférences}
+%
+%%
+%
+\cventry{29.04.2022}{\textnormal{Atelier méthodologique de latin médiéval}}{\textit{Les sciences du manuscrit}}{CUSO}{(avec C. Giraud), UNIGE}{}
+\cventry{03-05.2022}{\textnormal{Cycle de conférence : cours public}}{\textit{Héros et Anti-héros au Moyen-Age}}{Centre d’Études Médiévales}{(avec A.-L. Rey, V. Pochon), UNIGE}{}
+%
+\cventry{16.04.2021}{\textnormal{Atelier méthodologique de latin médiéval}}{}{CUSO}{(avec C. Giraud),UNIGE}{}
+\cventry{03-05.2021}{\textnormal{Cycles de Conférences: Cours public}}{\textit{Songe et vision au Moyen-Age}}{Centre d’Études Médiévales}{(avec A.-L. Rey, A. Sartenar), UNIGE}{}
+%
+\cventry{03-05.2020}{\textnormal{Cycles de Conférences: Cours public}}{\textit{La ville au Moyen-Age }}{Centre d’Études Médiévales}{(avec A.-L. Rey, S. Olivier), UNIGE}{}
+\cventry{10.05.2019}{\textnormal{Atelier méthodologique de latin médiéval}}{\textit{Les bases de données textuelles Mirabile et Corpus corporum}}{CUSO}{(avec J.-Y. Tilliette), UNIGE}{}
+%
+\cventry{4-5.03.2019}{\textnormal{Journées d'études}}{Le Moyen Age en émoi}{CUSO/JCM}{(avec C. Carnaille, A. Costa. A. Sartenar), UNIGE}{}
+\cventry{10.05.2018}{\textnormal{Atelier méthodologique de latin médiéval}}{\textit{L'édition des textes latins du Moyen-Age}}{CUSO}{(avec J.-Y. Tilliette), UNIGE}{}
+%
+%%
+%
+\section{Activités associatives}
+\cventry{2021}{\textnormal{Organisation du voyage d'étude}}{Suisse}{JCM}{avec P. Deleville, J. Bevant}{}
+\cventry{2019}{\textnormal{Organisation du voyage d'étude}}{Ecosse}{JCM}{avec A. Sartenar}{}
+\cventry{04.2018 et 2023}{\textnormal{Responsable du stand de la chaîne des écritures, \textit{atelier de calligraphie gothique}}}{\href{https://nuitantique.ch/}{\newline{\textcolor{blue}{Nuits Antiques}}}}{Département des sciences de l'Antiquité}{}{}
+\cventry{2018-2019}{\textnormal{Secrétaire des JCM,(Jeunes Chercheurs Médiéviste)}}{}{}{}{}
+%
+%%
+%
+\section{Langues}
+\cvdoubleitem{Français}{Langue maternelle}{Anglais}{B2}
+\cvdoubleitem{Allemand}{B2}{Italien}{Lecture}
+\cvdoubleitem{Traduction}{Latin-Français}{Traduction}{Grec ancien-Français (débutant)}
+%
+%%
+%
+\section{Informatique}
+\cvitem{Bureautique}{ Suite Office, Zotero,  \LaTeX}
+\cvitemwithcomment{Divers}{Linux (fonctionemment du terminal), Gitub}{}%<Category 
+\cvitemwithcomment{Langages}{R, Python (notion) ,XML/TEI}{en cours d'acquisiition}
+\cvitemwithcomment{HTR}{Projet d'édition numérique avec la platforme \href{https://test2.fondue.unige.ch/}{\textcolor{blue}{e-scriptorium}}}{pour juillet 2023}
+%
+%%
+%
+\section{Loisirs}
+\cvitem{randonnée}{Moyenne et haute montagne, trek bivouac}
+\cvitem{musique}{Violon, alto}
+\cvitem{voyage}{Kirghizistan, Géorgie, Arménie, transsibérien}
+\vspace*{1cm}
+\centering{\aldineleft\aldineleft\aldineleft}
+\newpage
+%
+%%
+%
+\section{Communications}
+%
+%%
+%
+\cventry{22-24.09.2022}{\textnormal{\guillemetleft\textit{Omne bonum ueterum labiis distillat} : l’exemple de l’Antiquité dans l’Architrenius de Jean de Hanville\guillemetright}}{\textnormal{Medialatinitas IX : Nostalgia and/in the Latin Middle Age}}{Charles University, Prague}{}{}
+%
+\cventry{10-11.06.2022}{\textnormal{« Describing Urban Space in the Twelfth Century between Revaluation and Tension»}}{\href{https://www.fondationhardt.ch/wp-content/uploads/2022/05/Programme-Colloque-Unige-Lovato_10-11.06.2022_The-citys-finest.pdf}{Workshop The city's finest:exploring notions of "urbanity" between East and West, from antiquity to the Middle Ages}}{Fondation Hardt}{Genève}{}{}
+%
+\cventry{08.02.2022}{«\textnormal{Foulcoie de Beauvais : décrire la sagesse au XI\textsuperscript{e} siècle »}}{\textit{Journée des doctorant.e.s et post-doctorant.e.s en latin}}{UNIL}{Lausanne}{}
+%
+\cventry{10.05.2019}{«\textnormal {Gui de Bazoches, question de traduction : La lettre I»}}{atelier méthodologique de latin médiéval}{UNIGE}{Genève}{}{}
+%
+%%
+%
+\section{Travaux de vulgarisation}
+%
+%%
+%
+\cventry{09.03.2022}{«\textnormal{L’armure fait-elle le héros ? Prendre les armes dans l’épopée
+	médiolatine} »}{Cours public du Centre d’Etudes Médiévales}{UNIGE}{Genève}{}
+\cventry{19.05.2021}{«\textnormal{Visions et révisions : les nuits agitées des intellectuels du Moyen Age} »}{Cours public du Centre d’Études Médiévales}{UNIGE}{Genève}{}
+%
+\cventry{2017-2019}{\textnormal{Introduction à la paléographie et exercice pratique de calligraphie gothique}}{Collège de Candolle}{Genève}{}{2-4 heures de cours données ponctuellement dans l'enseignement secondaire genevois}
+%
+%%
+%
+\section{Références}
+%
+%%
+%
+\cvitem{Cédric Giraud}{Professeur ordinaire en latin médiéval, UNIGE,\textcolor{blue}{\href{mailto:Cedric.Giraud@unige.ch}{\emph{Cédric.Giraud@unige.ch}}}}
+%
+\end{document}
